@@ -204,3 +204,20 @@ def most_points_scored
   end
   return good_player[:name]
 end
+
+def winning_team
+  
+  win = {}
+  game_hash.each do |team, info|
+      team_points = 0
+      game_hash[team][:players].each do |player|
+         team_points += player[:points];
+       end
+       win = {
+         :name => info[:team_name], 
+         :total => team_points
+        }
+    end
+  end
+  return good_player[:name]
+end
