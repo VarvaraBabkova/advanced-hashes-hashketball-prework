@@ -202,5 +202,5 @@ def most_points_scored
        end
     end
   end
-  return big_player[:rebounds]
+  return good_player[:name]
 end
