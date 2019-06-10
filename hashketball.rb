@@ -135,6 +135,14 @@ def num_points_scored (name)
   end
 end
 
+def shoe_size (name)
+  game_hash.each do |team, info|
+    game_hash[team][:players].each do |player|
+      return player[:size] if player[:name] == name
+    end
+  end
+end
+
 def good_practices
   game_hash.each do |location, team_data|
     #are you ABSOLUTELY SURE what 'location' and 'team data' are? use binding.pry to find out!
