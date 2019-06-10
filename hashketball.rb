@@ -225,5 +225,5 @@ def winning_team
         winner = team[:name]
       end
     end
-  return winnew
+  return winner
 end
