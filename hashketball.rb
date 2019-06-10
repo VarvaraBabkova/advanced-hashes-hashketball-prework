@@ -18,6 +18,7 @@ def game_hash
           :slam_dunks => 1
         },
         {
+          :name => "Reggie Evans",
           :number => 30,
           :shoe => 14,
           :points => 12,
@@ -28,6 +29,7 @@ def game_hash
           :slam_dunks => 7
         },
         {
+          :name => "Brook Lopez",
           :number => 11,
           :shoe => 17,
           :points => 17,
@@ -38,6 +40,7 @@ def game_hash
           :slam_dunks => 15
         },
         {
+          :name => "Mason Plumlee",
           :number => 1,
           :shoe => 19,
           :points => 26,
@@ -48,6 +51,7 @@ def game_hash
           :slam_dunks => 5
         },
         {
+          :name => "Jason Terry",
           :number => 31,
           :shoe => 15,
           :points => 19,
