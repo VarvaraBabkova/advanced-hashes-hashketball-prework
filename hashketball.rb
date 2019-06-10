@@ -217,9 +217,13 @@ def winning_team
        end
        win.push({:name => info[:team_name], :total => team_points})
     end
+
     max_points = 0
-    win.each do |name, total|
-      if
+    win.each do |team|
+      if team[:total] > max_points
+        max_points = team[:total]
+        winner = team[:name]
+      end
     end
-  return win
+  return winnew
 end
