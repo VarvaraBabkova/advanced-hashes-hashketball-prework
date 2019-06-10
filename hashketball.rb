@@ -150,7 +150,10 @@ def team_colors (name)
 end
 
 def team_names (team)
-
+  ar = []
+  game_hash.each do |team, info|
+    ar.push(info[:team_name])
+  end
 end
 
 def good_practices
