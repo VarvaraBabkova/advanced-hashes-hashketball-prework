@@ -161,7 +161,7 @@ def player_numbers (team_str)
   ar = []
   game_hash.each do |team, info|
     game_hash[team][:players].each do |player|
-      ar.push(player[:number]) if info[:team_name] == name
+      ar.push(player[:number]) if info[:team_name] == team_str
     end
   end
   return ar
