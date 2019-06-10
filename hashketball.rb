@@ -213,11 +213,11 @@ def winning_team
       game_hash[team][:players].each do |player|
          team_points += player[:points];
        end
-       win = {
+       win.push{
          :name => info[:team_name],
          :total => team_points
         }
     end
-  
+
   return win
 end
