@@ -130,7 +130,7 @@ end
 def num_points_scored (name)
   game_hash.each do |team, info|
     game_hash[team][players].each do |player|
-      return player[number]
+      return player[points]
     end
   end
 end
