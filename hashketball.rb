@@ -166,3 +166,7 @@ def player_numbers (team_str)
   end
   return ar
 end
+
+def player_stats (name)
+  
+end
