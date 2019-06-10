@@ -218,6 +218,6 @@ def winning_team
          :total => team_points
         }
     end
-  end
+  
   return win
 end
