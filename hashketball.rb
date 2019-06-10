@@ -250,7 +250,7 @@ def long_name_steals_a_ton?
   game_hash.each do |team, info|
     game_hash[team][:players].each do |player|
        if player[:steals] > max_steals
-         max_steals = player[:stels];
+         max_steals = player[:steals];
        end
     end
   end
