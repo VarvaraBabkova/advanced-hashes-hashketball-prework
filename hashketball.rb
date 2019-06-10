@@ -241,3 +241,10 @@ def player_with_longest_name
   end
   return long_name
 end
+
+def long_name_steals_a_ton?
+  long_name = player_with_longest_name
+  player = player_stats(long_name)
+  
+  return true if player[:steals] == max_steals
+end
