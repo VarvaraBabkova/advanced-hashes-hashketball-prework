@@ -128,7 +128,11 @@ def game_hash
 end
 
 def num_points_scored (name)
-
+  game_hash.each do |team, info|
+    game_hash[team][players].each do |player|
+      return player[number]
+    end
+  end
 end
 
 def good_practices
