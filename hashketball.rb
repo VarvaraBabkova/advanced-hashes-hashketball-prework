@@ -219,5 +219,5 @@ def winning_team
         }
     end
   end
-  return good_player[:name]
+  return win
 end
